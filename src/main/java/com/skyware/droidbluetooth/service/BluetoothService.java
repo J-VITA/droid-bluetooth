@@ -26,11 +26,6 @@ public class BluetoothService {
     private static final String TAG = BluetoothService.class.getSimpleName();
 
     private BluetoothAdapter btAdapter;
-    /**
-     BluetoothDevice 로 기기의 장치정보를 알아낼 수 있는 자세한 메소드 및 상태값을 알아낼 수 있다.
-     연결하고자 하는 다른 블루투스 기기의 이름, 주소, 연결 상태 등의 정보를 조회할 수 있는 클래스.
-     현재 기기가 아닌 다른 블루투스 기기와의 연결 및 정보를 알아낼 때 사용.
-     */
     BluetoothDevice mRemoteDevie;
 
     private Activity mActivity;
