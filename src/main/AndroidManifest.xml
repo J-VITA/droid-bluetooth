@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skyware.droidbluetooth" >
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/><!-- 커넥션 요구, 커넥션 수락, 데이터 전송 등의 블루투스 통신 -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/><!--  디바이스 검색 시작, 블루투스 설정 -->
+</manifest>
