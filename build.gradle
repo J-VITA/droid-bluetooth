@@ -39,7 +39,7 @@ uploadArchives {
         mavenDeployer{
             repository(url: 'http://1.221.205.250:9495/nexus/content/repositories/releases/') {
                 authentication(userName: 'admin', password: 'skyman01')
-                pom.version = "1.0.1-RELEASE"
+                pom.version = "1.0.2-RELEASE"
                 pom.groupId = "com.skyware"
                 pom.artifactId = "droidbluetooth"
             }
